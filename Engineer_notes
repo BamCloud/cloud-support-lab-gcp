@@ -1,0 +1,20 @@
+Engineer Notes:
+Recommended creating an instance template with attached disks.
+
+Shared GCP docs on auto-attach and persistent disk lifecycle.
+
+```md
+ - GCP Persistent Disk Recovery
+
+This ticket walks through diagnosing and resolving a GCP issue where a persistent data disk was detached after a VM restart.
+
+ Skills demonstrated:
+- GCP Compute Engine troubleshooting
+- Disk attachment and mounting
+- Customer empathy and education
+
+Commands used:
+- `gcloud compute disks list`
+- `gcloud compute instances attach-disk`
+- `gcloud compute ssh`
+- Linux disk mounting commands
